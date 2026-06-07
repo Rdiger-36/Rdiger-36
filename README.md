@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Niklas 👋</h1>
 
 <p align="center">
-  Software developer building tools around 3D printing, home automation, and connected devices.
+  Coding is my hobby. I enjoy building things that make everyday life easier, whether that's developing integrations between my 3D printer, Home Assistant, and Spoolman, creating Android and iOS apps, or building Java tools.
 </p>
 
 <p align="center">
@@ -36,24 +36,27 @@
 
 ### 📌 Project Highlights
 
-- **[bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/bambulab-ams-spoolman-filamentstatus)** ![Stars](https://img.shields.io/github/stars/Rdiger-36/bambulab-ams-spoolman-filamentstatus?style=social)
+- **[bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/bambulab-ams-spoolman-filamentstatus)**
   Integrates a Bambu Lab AMS system with Spoolman to synchronize filament spool usage via MQTT.
+  ![Stars](https://img.shields.io/github/stars/Rdiger-36/bambulab-ams-spoolman-filamentstatus?style=social)
 
-- **[StudioBridge](https://github.com/Rdiger-36/StudioBridge)** ![Stars](https://img.shields.io/github/stars/Rdiger-36/StudioBridge?style=social)
+- **[StudioBridge](https://github.com/Rdiger-36/StudioBridge)**
   Adds Bambu Lab 3D printers from other accessible networks to Bambu Studio.
+  ![Stars](https://img.shields.io/github/stars/Rdiger-36/StudioBridge?style=social)
 
-- **[ha-bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus)** ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
+- **[ha-bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus)**
   Home Assistant Add-On for Bambu Lab AMS Spoolman Filament Status.
-
+  ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
+  
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-psi-five.vercel.app/api?username=Rdiger-36&show_icons=true&theme=default&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats-psi-five.vercel.app/api/top-langs/?username=Rdiger-36&layout=compact&hide_border=true&cache_seconds=86400" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats-psi-five.vercel.app/api?username=Rdiger-36&show_icons=true&theme=dark&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-psi-five.vercel.app/api/top-langs/?username=Rdiger-36&layout=compact&theme=dark&hide_border=true&cache_seconds=86400" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rdiger-36&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rdiger-36&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
