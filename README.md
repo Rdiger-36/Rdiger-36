@@ -8,6 +8,12 @@
   <img src="https://komarev.com/ghpvc/?username=Rdiger-36&style=flat-square&color=blueviolet" alt="Profile views" />
 </p>
 
+<p align="center">
+  <a href="https://rdiger-36.github.io/Rdiger-36/">
+    <img src="https://img.shields.io/badge/📬_Contact_me-58A6FF?style=for-the-badge&logoColor=white" alt="Contact me" />
+  </a>
+</p>
+
 ---
 
 ### 🚀 About Me
