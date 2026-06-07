@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Rdiger-36 👋</h1>
+<h1 align="center">Hi, I'm Niklas 👋</h1>
 
 <p align="center">
   Software developer building tools around 3D printing, home automation, and connected devices.
