@@ -53,7 +53,11 @@
 - **[ha-bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus)**
   Home Assistant Add-On for Bambu Lab AMS Spoolman Filament Status.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
-  
+
+- **[DartScore](https://github.com/Rdiger-36/DartScore)**
+  A feature-rich offline dart scoring app for Android & iOS — X01, Cricket, Shanghai & Around the Clock, with detailed stats, checkout suggestions and device-to-device sync. Built with Flutter.
+  ![Stars](https://img.shields.io/github/stars/Rdiger-36/DartScore?style=social)
+
 ---
 
 ### 📊 GitHub Stats
