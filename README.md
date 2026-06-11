@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Niklas 👋</h1>
 
 <p align="center">
-  Coding is my hobby. I enjoy building things that make everyday life easier, whether that's developing integrations between my 3D printer, Home Assistant, and Spoolman, creating Android and iOS apps, or building Java tools.
+  Coding is my hobby. I enjoy building things that make everyday life easier, whether that's developing integrations between my 3D printer, Home Assistant, and Spoolman, mobile app development for Android and iOS with Flutter, or building Java tools.
 </p>
 
 <p align="center">
@@ -18,6 +18,7 @@
 
 ### 🚀 About Me
 
+- 📱 Just released **[DartScore](https://github.com/Rdiger-36/DartScore)** — an offline dart scoring app for Android & iOS built with Flutter
 - 🔭 I'm currently working on integrations between **Bambu Lab 3D printers**, **Home Assistant**, and **Spoolman**
 - 🛠️ I enjoy building practical tools that connect hardware and software (MQTT, automation, add-ons)
 - 📱 I also build mobile apps with **Flutter/Dart** (e.g. score-tracking and inventory management apps) and handy **Java** utilities (media downloaders, image conversion tools)
