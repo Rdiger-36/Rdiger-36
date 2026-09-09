@@ -18,7 +18,7 @@
 
 ### 🚀 About Me
 
-- 🎯 Currently in beta: **[DartScore](https://github.com/Rdiger-36/DartScore)** — an offline dart scoring app for Android & iOS built with Flutter (TestFlight / Google Play closed beta)
+- 🎯 Released **[DartScore](https://github.com/Rdiger-36/DartScore)** — an offline dart scoring app for Android & iOS built with Flutter
 - 🔭 I'm working on integrations between **Bambu Lab 3D printers**, **Home Assistant**, and **Spoolman**
 - 🛠️ I enjoy building practical tools that connect hardware and software (MQTT, automation, add-ons)
 - 📱 I build mobile apps with **Flutter/Dart** and handy **Java** utilities (media downloaders, image conversion tools)
@@ -56,7 +56,7 @@
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
 
 - **[DartScore](https://github.com/Rdiger-36/DartScore)**
-  A feature-rich offline dart scoring app for Android & iOS — X01, Cricket, Shanghai & Around the Clock, with detailed stats, dartboard heatmaps, checkout suggestions and device-to-device sync without internet. Built with Flutter, currently in beta.
+  A feature-rich offline dart scoring app for Android & iOS — X01, Cricket, Shanghai & Around the Clock, with detailed stats, dartboard heatmaps, checkout suggestions and device-to-device sync without internet. Built with Flutter.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/DartScore?style=social)
 
 ---
