@@ -18,12 +18,12 @@
 
 ### 🚀 About Me
 
-- 📱 Just released **[DartScore](https://github.com/Rdiger-36/DartScore)** — an offline dart scoring app for Android & iOS built with Flutter
-- 🔭 I'm currently working on integrations between **Bambu Lab 3D printers**, **Home Assistant**, and **Spoolman**
+- 🎯 Released **[DartScore](https://github.com/Rdiger-36/DartScore)**, an offline dart scoring app for Android & iOS built with Flutter
+- 🔭 I'm working on integrations between **Bambu Lab 3D printers**, **Home Assistant**, and **Spoolman**
 - 🛠️ I enjoy building practical tools that connect hardware and software (MQTT, automation, add-ons)
-- 📱 I also build mobile apps with **Flutter/Dart** (e.g. score-tracking and inventory management apps) and handy **Java** utilities (media downloaders, image conversion tools)
+- 📱 I build mobile apps with **Flutter/Dart** and handy **Java** utilities (media downloaders, image conversion tools)
 - 🌱 Always learning and improving my projects based on community feedback
-- 💬 Feel free to open an issue or discussion on any of my repos — contributions and ideas are welcome!
+- 💬 Feel free to open an issue or discussion on any of my repos. Contributions and ideas are welcome!
 
 ---
 
@@ -52,11 +52,11 @@
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/StudioBridge?style=social)
 
 - **[ha-bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus)**
-  Home Assistant Add-On for Bambu Lab AMS Spoolman Filament Status.
+  Home Assistant integration (HACS) that brings the Bambu Lab AMS Spoolman Filament Status into Home Assistant as sensors and switches.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
 
 - **[DartScore](https://github.com/Rdiger-36/DartScore)**
-  A feature-rich offline dart scoring app for Android & iOS — X01, Cricket, Shanghai & Around the Clock, with detailed stats, checkout suggestions and device-to-device sync. Built with Flutter.
+  A feature-rich offline dart scoring app for Android & iOS with X01, Cricket, Shanghai & Around the Clock, detailed stats, dartboard heatmaps, checkout suggestions and device-to-device sync without internet. Built with Flutter.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/DartScore?style=social)
 
 ---
@@ -69,5 +69,5 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rdiger-36&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Rdiger-36&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
