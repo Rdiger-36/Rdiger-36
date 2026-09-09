@@ -52,7 +52,7 @@
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/StudioBridge?style=social)
 
 - **[ha-bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus)**
-  Home Assistant Add-On for Bambu Lab AMS Spoolman Filament Status.
+  Home Assistant integration (HACS) that brings the Bambu Lab AMS Spoolman Filament Status into Home Assistant as sensors and switches.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
 
 - **[DartScore](https://github.com/Rdiger-36/DartScore)**
