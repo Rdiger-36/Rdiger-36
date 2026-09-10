@@ -64,7 +64,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Rdiger-36&theme=dark&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Rdiger-36&theme=dark&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Rdiger-36&theme=dark&show_icons=true&hide_border=true&layout=compact" alt="Top Languages" />
 </p>
 
