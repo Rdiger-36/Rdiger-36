@@ -51,9 +51,9 @@
   Adds Bambu Lab 3D printers from other accessible networks to Bambu Studio.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/StudioBridge?style=social)
 
-- **[ha-bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus)**
+- **[HaspelSync-HA](https://github.com/Rdiger-36/HaspelSync-HA)**
   Home Assistant integration (HACS) that brings the Bambu Lab AMS Spoolman Filament Status into Home Assistant as sensors and switches.
-  ![Stars](https://img.shields.io/github/stars/Rdiger-36/ha-bambulab-ams-spoolman-filamentstatus?style=social)
+  ![Stars](https://img.shields.io/github/stars/Rdiger-36/HaspelSync-HA?style=social)
 
 - **[DartScore](https://github.com/Rdiger-36/DartScore)**
   A feature-rich offline dart scoring app for Android & iOS with X01, Cricket, Shanghai & Around the Clock, detailed stats, dartboard heatmaps, checkout suggestions and device-to-device sync without internet. Built with Flutter.
