@@ -43,9 +43,9 @@
 
 ### 📌 Project Highlights
 
-- **[bambulab-ams-spoolman-filamentstatus](https://github.com/Rdiger-36/bambulab-ams-spoolman-filamentstatus)**
-  Integrates a Bambu Lab AMS system with Spoolman to synchronize filament spool usage via MQTT.
-  ![Stars](https://img.shields.io/github/stars/Rdiger-36/bambulab-ams-spoolman-filamentstatus?style=social)
+- **[HaspelSync](https://github.com/Rdiger-36/HaspelSync)**
+  Keeps a Bambu Lab AMS in sync with Spoolman, formerly bambulab-ams-spoolman-filamentstatus. Tracks what a print actually consumes and books it onto the right spool via MQTT.
+  ![Stars](https://img.shields.io/github/stars/Rdiger-36/HaspelSync?style=social)
 
 - **[StudioBridge](https://github.com/Rdiger-36/StudioBridge)**
   Adds Bambu Lab 3D printers from other accessible networks to Bambu Studio.
