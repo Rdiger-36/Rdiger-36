@@ -1,0 +1,133 @@
+name: Pulls badge
+
+# Keeps badges/pulls.json up to date with the combined pull count of the
+# HaspelSync image under its two names. GHCR counts pulls per package and the
+# count does not move with a rename, so the badge adds the old package
+# (ghcr.io/rdiger-36/bambulab-ams-spoolman-filamentstatus) to the new one
+# (ghcr.io/rdiger-36/haspelsync). Once the old package is made private its
+# count can no longer be read; the last value read successfully is kept in
+# badges/state.json and added from then on, so the pulls collected under the
+# old name stay in the badge without anybody maintaining a number by hand.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulls-badge
+  cancel-in-progress: false
+
+env:
+  BADGE_API: https://ghcr-badge.elias.eu.org/api/Rdiger-36/HaspelSync
+  NEW_PACKAGE: haspelsync
+  OLD_PACKAGE: bambulab-ams-spoolman-filamentstatus
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch pull counts and write badge files
+        run: |
+          mkdir -p badges
+          node - <<'JS'
+          const fs = require("fs");
+
+          const STATE_FILE = "badges/state.json";
+          const BADGE_FILE = "badges/pulls.json";
+          const { BADGE_API, NEW_PACKAGE, OLD_PACKAGE } = process.env;
+
+          async function fetchCount(pkg) {
+              const res = await fetch(`${BADGE_API}/${pkg}`);
+              if (!res.ok) {
+                  throw new Error(`${pkg}: HTTP ${res.status}`);
+              }
+              const body = await res.json();
+              const raw = body.downloadCountRaw;
+              if (!Number.isInteger(raw) || raw < 0) {
+                  throw new Error(`${pkg}: no downloadCountRaw in response`);
+              }
+              return raw;
+          }
+
+          // Same shape as the badge service's downloadCount: plain below
+          // one thousand, otherwise one decimal with a K or M suffix.
+          function formatCount(n) {
+              const scale = (value, suffix) => {
+                  const text = value.toFixed(1).replace(/\.0$/, "");
+                  return `${text}${suffix}`;
+              };
+              if (n >= 1e6) return scale(n / 1e6, "M");
+              if (n >= 1e3) return scale(n / 1e3, "K");
+              return String(n);
+          }
+
+          function readState() {
+              try {
+                  return JSON.parse(fs.readFileSync(STATE_FILE, "utf8"));
+              } catch {
+                  return {};
+              }
+          }
+
+          function writeJson(file, data) {
+              fs.writeFileSync(file, JSON.stringify(data, null, 2) + "\n");
+          }
+
+          async function main() {
+              const state = readState();
+              const newCount = await fetchCount(NEW_PACKAGE);
+
+              let oldCount;
+              let frozen = false;
+              try {
+                  oldCount = await fetchCount(OLD_PACKAGE);
+                  state.oldPackage = OLD_PACKAGE;
+                  state.oldCount = oldCount;
+                  state.oldCountReadAt = new Date().toISOString();
+              } catch (err) {
+                  if (!Number.isInteger(state.oldCount)) {
+                      throw new Error(`old package unreadable and no stored count: ${err.message}`);
+                  }
+                  oldCount = state.oldCount;
+                  frozen = true;
+                  console.log(`old package unreadable (${err.message}), using stored count ${oldCount}`);
+              }
+
+              const total = oldCount + newCount;
+              console.log(`${OLD_PACKAGE}: ${oldCount}${frozen ? " (frozen)" : ""}`);
+              console.log(`${NEW_PACKAGE}: ${newCount}`);
+              console.log(`total: ${total} (${formatCount(total)})`);
+
+              writeJson(STATE_FILE, state);
+              writeJson(BADGE_FILE, {
+                  schemaVersion: 1,
+                  label: "pulls",
+                  message: formatCount(total),
+                  color: "blue",
+              });
+          }
+
+          main().catch((err) => {
+              console.error(err.message);
+              process.exit(1);
+          });
+          JS
+
+      - name: Commit when changed
+        run: |
+          git add badges
+          if git diff --cached --quiet; then
+            echo "badge unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update pulls badge"
+          git push
