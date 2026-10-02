@@ -52,7 +52,7 @@
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/StudioBridge?style=social)
 
 - **[HaspelSync-HA](https://github.com/Rdiger-36/HaspelSync-HA)**
-  Home Assistant integration (HACS) that brings the Bambu Lab AMS Spoolman Filament Status into Home Assistant as sensors and switches.
+  Home Assistant integration (HACS) that brings HaspelSync into Home Assistant as sensors and switches.
   ![Stars](https://img.shields.io/github/stars/Rdiger-36/HaspelSync-HA?style=social)
 
 - **[DartScore](https://github.com/Rdiger-36/DartScore)**
