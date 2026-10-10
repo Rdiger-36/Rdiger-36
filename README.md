@@ -61,16 +61,6 @@
 
 ---
 
-### ☕ Support Me
-
-If my projects are useful to you, you can support my work on Ko-fi:
-
-<a href="https://ko-fi.com/rdiger36"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee at ko-fi.com" height="36" /></a>
-
-A big thank you to all my [supporters](SUPPORTERS.md)! ❤️
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -81,3 +71,13 @@ A big thank you to all my [supporters](SUPPORTERS.md)! ❤️
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Rdiger-36&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
+
+---
+
+### ☕ Support Me
+
+If my projects are useful to you, you can support my work on Ko-fi:
+
+<a href="https://ko-fi.com/rdiger36"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee at ko-fi.com" height="36" /></a>
+
+A big thank you to all my [supporters](SUPPORTERS.md)! ❤️
