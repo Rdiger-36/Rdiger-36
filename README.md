@@ -61,6 +61,14 @@
 
 ---
 
+### ☕ Support Me
+
+If my projects are useful to you, you can support my work on Ko-fi:
+
+<a href="https://ko-fi.com/rdiger36"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee at ko-fi.com" height="36" /></a>
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
